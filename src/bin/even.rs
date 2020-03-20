@@ -1,5 +1,6 @@
-#[macro_use(input,input_inner,read_value)]
-extern crate comp_pro_rust as comp;
+use comp_pro_rust::input;
+use comp_pro_rust::input_inner;
+use comp_pro_rust::read_value;
 
 fn main() {
     input!{
